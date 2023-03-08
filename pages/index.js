@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero'
+import { SliderData } from '../components/SliderData'
+import Slider from '../components/Slider'
 
 
 export default function Home() {
@@ -12,7 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading='Illusion Tricking' message='We teach a combination of 
-      flips, kicks, and twists which create tricks' />
+      flips, kicks, and twists which are tricks!' />
+      <Slider slides={SliderData} />
     </>
   )
 }

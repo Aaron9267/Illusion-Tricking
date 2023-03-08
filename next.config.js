@@ -3,4 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: [
+      'scontent.fpmr1-1.fna.fbcdn.net'
+    ]
+  }
+}
