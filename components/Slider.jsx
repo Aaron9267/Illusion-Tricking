@@ -20,8 +20,9 @@ if (!Array.isArray(slides) || slides.length <= 0) {
 }
 
     return (
-        <div id='clothing' className='max-w-[700px] mx-auto'>
+        <div id='t-shirt' className='max-w-[700px] mx-auto'>
             <h1 className='text-2xl font-bold text-center p-4'>T-shirt</h1>
+            <p className='text-center'>Price-$35. Go to contact to purchase.</p>
             <div className='relative flex justify-center p-4'>
 
                 {SliderData.map((slide, index) => {

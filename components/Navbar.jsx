@@ -66,10 +66,10 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/#clothing'>Clothing</Link>
+                        <Link href='/#t-shirt'>T-shirt</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/tutorials'>Tutorials</Link>
+                        <Link href='/classes'>Classes</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/contact'>Contact</Link>
