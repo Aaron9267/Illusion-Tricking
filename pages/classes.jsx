@@ -6,7 +6,7 @@ import Instagram from '../components/Instagram'
 const classes = () => {
     return (
         <div>
-            <Hero heading='Classes' message='Timetable below. Email illusion.tricking@gmail.com to enroll' />
+            <Hero heading='Classes' message='Timetable below. Go to contact to enroll. $100 per term or $10 for casual session' />
             <Class />
             <Instagram />
         </div>

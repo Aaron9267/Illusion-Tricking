@@ -3,6 +3,12 @@ import Image from 'next/image'
 import { SliderData } from './SliderData'
 import {FaArrowCircleLeft} from 'react-icons/fa'
 import {FaArrowCircleRight} from 'react-icons/fa'
+import {Fira_Sans_Extra_Condensed} from '@next/font/google'
+
+const fira = Fira_Sans_Extra_Condensed({
+    subsets:['latin'],
+    weight:['500'],
+  })
 
 const Slider = ({slides}) => {
 const [current, setCurrent] = useState(0)
@@ -20,9 +26,9 @@ if (!Array.isArray(slides) || slides.length <= 0) {
 }
 
     return (
-        <div id='t-shirt' className='max-w-[700px] mx-auto'>
-            <h1 className='text-2xl font-bold text-center p-4'>T-shirt</h1>
-            <p className='text-center'>$35</p>
+        <div id='t-shirt' className='max-w-[700px] mx-auto text-center'>
+            <h1 className='text-2xl font-bold p-4'>T-shirt</h1>
+            <p className={fira.className}>$35 - Go to contact to purchase</p>
             <div className='relative flex justify-center p-4'>
 
                 {SliderData.map((slide, index) => {

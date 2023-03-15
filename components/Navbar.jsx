@@ -35,9 +35,6 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/#t-shirt'>T-shirt</Link>
-                    </li>
-                    <li className='p-4'>
                         <Link href='/classes'>Classes</Link>
                     </li>
                     <li className='p-4'>
@@ -64,9 +61,6 @@ const Navbar = () => {
                 <ul onClick={handleNav}>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/'>Home</Link>
-                    </li>
-                    <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/#t-shirt'>T-shirt</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/classes'>Classes</Link>

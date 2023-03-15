@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Hero from '../components/Hero'
 import { SliderData } from '../components/SliderData'
 import Slider from '../components/Slider'
+import Instagram from '../components/Instagram'
 
 
 export default function Home() {
@@ -15,8 +16,9 @@ export default function Home() {
       </Head>
       <Hero 
       heading='Illusion Tricking' 
-      message='Sports group based in Levin, New Zealand. We do a mixture of flips, kicks, and twists that are put together to create cool tricks!' />
+      message='Sports group based at the Event Center, Levin. We do a mixture of flips, kicks, and twists that are put together to create cool tricks!' />
       <Slider slides={SliderData} />
+      <Instagram />
     </>
   )
 }
