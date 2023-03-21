@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { SliderData } from './SliderData'
 import {FaArrowCircleLeft} from 'react-icons/fa'
 import {FaArrowCircleRight} from 'react-icons/fa'
-import {Fira_Sans_Extra_Condensed} from '@next/font/google'
+import {Fira_Sans_Extra_Condensed} from 'next/font/google'
 
 const fira = Fira_Sans_Extra_Condensed({
     subsets:['latin'],

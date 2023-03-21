@@ -6,7 +6,7 @@ import IgImg4 from '../public/img-4.jpg'
 import IgImg5 from '../public/img-5.jpg'
 import IgImg6 from '../public/img-6.jpg'
 import InstagramImg from './InstagramImg'
-import {Fira_Sans_Extra_Condensed} from '@next/font/google'
+import {Fira_Sans_Extra_Condensed} from 'next/font/google'
 
 const fira = Fira_Sans_Extra_Condensed({
     subsets:['latin'],
