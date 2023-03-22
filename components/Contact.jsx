@@ -75,7 +75,7 @@ const onSubmit = async () => {
                 {error}
             </Text>
         )}
-
+<Heading>
         <FormControl isRequired isInvalid={touched.name && !values.name} mb={5}>
             <FormLabel>Name</FormLabel>
             <Input 
@@ -125,7 +125,7 @@ const onSubmit = async () => {
              />
              <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
-
+        
         <Button
         variant="outline"
         colorScheme='blue'
@@ -133,6 +133,7 @@ const onSubmit = async () => {
         isDisabled={!values.name || !values.email || !values.subject || !values.message}
         onClick={onSubmit}
         >Submit</Button>
+</Heading>
 
     </Container>
 
