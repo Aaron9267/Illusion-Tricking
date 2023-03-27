@@ -69,7 +69,6 @@ const onSubmit = async () => {
     return <ChakraProvider theme={theme}>
     <AppContainer>
     <Container maxW='450px' mt={40} mb={40}>
-        <Heading>Contact</Heading>
         {error && (
             <Text color="red.300" my={4} fontSize="xl">
                 {error}
