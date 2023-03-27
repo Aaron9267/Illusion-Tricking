@@ -76,7 +76,7 @@ const onSubmit = async () => {
         )}
 <Heading>
         <FormControl isRequired isInvalid={touched.name && !values.name} mb={5}>
-            <FormLabel>Name</FormLabel>
+            <FormLabel color='white'>Name</FormLabel>
             <Input 
             type='text' 
             name='name'  
@@ -89,7 +89,7 @@ const onSubmit = async () => {
         </FormControl>
 
         <FormControl isRequired isInvalid={touched.email && !values.email} mb={5}>
-            <FormLabel>Email</FormLabel>
+            <FormLabel color='white'>Email</FormLabel>
             <Input 
             type='email' 
             name='email'
@@ -101,7 +101,7 @@ const onSubmit = async () => {
         </FormControl>
 
         <FormControl isRequired isInvalid={touched.subject && !values.subject} mb={5}>
-            <FormLabel>Subject</FormLabel>
+            <FormLabel color='white'>Subject</FormLabel>
             <Input 
             type='text' 
             name='subject' 
@@ -113,7 +113,7 @@ const onSubmit = async () => {
         </FormControl>
 
         <FormControl isRequired isInvalid={touched.message && !values.message} mb={5}>
-            <FormLabel>Message</FormLabel>
+            <FormLabel color='white'>Message</FormLabel>
             <Textarea 
             type='text' 
             name='message' 
