@@ -1,6 +1,7 @@
 import React from 'react'
 import {Fira_Sans_Extra_Condensed} from 'next/font/google'
 
+
 const fira = Fira_Sans_Extra_Condensed({
     subsets:['latin'],
     weight:['500'],
