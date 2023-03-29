@@ -6,7 +6,6 @@ import Hero from '../components/Hero'
 const contact = () => {
     return (
         <div>
-            <Hero heading='Contact' message='Complete the form below to enrol in a class, purchase a T-shirt, or ask a question'/>
             <Contact />
         </div>
     )
