@@ -34,6 +34,7 @@ const Instagram = () => {
                 <FaFacebook size={50} />
             </Link>
             </div>
+            <p>Website built by Aaron Van Eijck</p>
         </div>
         </div>
         </div>

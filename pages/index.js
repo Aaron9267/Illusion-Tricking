@@ -16,11 +16,10 @@ export default function Home() {
       </Head>
 
       <Hero 
-      heading='Illusion Tricking' 
-      message='Sports group based at the Event Center, Levin. We do a mixture of flips, kicks, and twists that are put together to create cool tricks!'
+      heading='About Us' 
+      message='Sports group based at the Event Center, Levin. We do a mixture of flips, kicks, and twists that create tricks! Classes run by Aaron Van Eijck.'
       frame='https://www.youtube.com/embed/GYfRuRT7fDY'
       />
-
       <Slider slides={SliderData} />
       <Instagram />
     </>
