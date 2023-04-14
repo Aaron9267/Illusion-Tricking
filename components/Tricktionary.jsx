@@ -34,7 +34,7 @@ function Tricktionary() {
         <div className="flex justify-center items-center absolute">
         <div className='text-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4'>
             {trickList.map((trick) => (
-                <div className=" bg-slate-700 text-white"> 
+                <div key={trick.id} className=" bg-slate-700 text-white"> 
                     <h1>Name: {trick.Name}</h1>
                     <p>Difficulty: {trick.Difficulty}</p>
                     <p>Type: {trick.Type}</p>
