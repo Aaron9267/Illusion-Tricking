@@ -7,7 +7,7 @@ const fira = Fira_Sans_Extra_Condensed({
     weight:['500'],
   })
 
-const Hero = ({heading, message, message1, frame}) => {
+const Hero = ({heading, message, message1, frame, hidden}) => {
     return (
         <div className='flex items-center justify-center h-screen bg-fixed 
         bg-center bg-cover custom-img'>
@@ -16,7 +16,7 @@ const Hero = ({heading, message, message1, frame}) => {
             <div className='p-5 text-white z-[2]'>
                 <h2 className='text-2xl'>{heading}</h2>
                 <p className={fira.className}>{message}<br/>{message1} </p>
-                <iframe height='300' className='m-auto w-full mt-20' src={frame}></iframe>
+                <iframe hidden={hidden} height='300' className='m-auto w-full mt-20' src={frame}></iframe>
             </div>
         </div>
     )

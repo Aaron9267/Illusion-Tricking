@@ -40,6 +40,9 @@ const Navbar = () => {
                     <li className='p-4'>
                         <Link href='/contact'>Contact</Link>
                     </li>
+                    <li className='p-4'>
+                        <Link href='/tricktionary'>Tricktionary</Link>
+                    </li>
                 </ul>
 
                 {/*Mobile Button */}
@@ -67,6 +70,9 @@ const Navbar = () => {
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/contact'>Contact</Link>
+                    </li>
+                    <li className='p-4 text-4xl hover:text-gray-500'>
+                        <Link href='/tricktionary'>Tricktionary</Link>
                     </li>
                 </ul>
                 </div>
