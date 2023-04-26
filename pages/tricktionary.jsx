@@ -7,7 +7,7 @@ const tricktionary = () => {
         <div>
             <Hero 
             heading='Tricktionary' 
-            message='Below is a list of tricks displayed with video. The goal is to eventually have the most extensive tricktionary in the world!'
+            message='Below is a list of tricks displayed with video. See if you can master them all!'
             hidden="hidden"
             />
             <Tricktionary />
