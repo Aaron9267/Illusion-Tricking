@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import Tricktionary from '../components/Tricktionary'
+import Basic from '../Tricktionary/Basic'
+import Easy from '../Tricktionary/Easy'
 
 const tricktionary = () => {
     return(
@@ -10,7 +11,10 @@ const tricktionary = () => {
             message='Below is a list of tricks displayed with video. See if you can master them all!'
             hidden="hidden"
             />
-            <Tricktionary />
+            <h1 className="flex justify-center text-2xl p-4">Basic</h1>
+            <Basic />
+            <h1 className="flex justify-center text-2xl p-4">Easy</h1>
+            <Easy />
         </div>
     )
 }
