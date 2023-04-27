@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import Basic from '../Tricktionary/Basic'
-import Easy from '../Tricktionary/Easy'
+import Basic from '../components/Tricktionary/Basic'
+import Easy from '../components/Tricktionary/Easy'
 
 const tricktionary = () => {
     return(
