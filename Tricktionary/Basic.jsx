@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { db } from '../config/firebase'
 import { getDocs, collection } from 'firebase/firestore'
 
@@ -30,7 +30,7 @@ function Basic() {
             {basicList
             .sort((a,b) => a.Type > b.Type ? 1 : -1)
             .map((basic) => (
-                <div key={basic} className=" bg-neutral-800 text-white"> 
+                <div key={basic} className="bg-neutral-800 text-white"> 
                     <h1>{basic.Name}</h1>
                     <p>Type - {basic.Type}</p>
                     <video controls src={basic.Front}></video>
