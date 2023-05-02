@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Basic from '../components/Tricktionary/Basic'
 import Easy from '../components/Tricktionary/Easy'
+import Medium from '../components/Tricktionary/Medium'
 
 const tricktionary = () => {
     return(
@@ -15,6 +16,8 @@ const tricktionary = () => {
             <Basic />
             <h1 className="flex justify-center text-2xl p-4">Easy</h1>
             <Easy />
+            <h1 className="flex justify-center text-2xl p-4">Medium</h1>
+            <Medium />
         </div>
     )
 }
