@@ -9,7 +9,7 @@ const tricktionary = () => {
         <div>
             <Hero 
             heading='Tricktionary' 
-            message='Below is a list of tricks displayed with video. See if you can master them all!'
+            message='Below is a list of tricks. Click on one to see what it looks like. See if you can master them all!'
             hidden="hidden"
             />
             <h1 className="flex justify-center text-2xl p-4">Basic</h1>

@@ -1,11 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import { db } from '../../config/firebase'
 import { getDocs, collection } from 'firebase/firestore'
 
 function Medium() {
     const [mediumList, setMediumList] = useState([])
-
     const mediumCollectionRef = collection(db, "Medium")
+
+    const [videoShown, setVideoShown] = useState('')
+    const toggleVideo = (id) => {
+        setVideoShown(prevVideoShown => ({
+            ...prevVideoShown,
+            [id]: !prevVideoShown[id]
+        }))
+    }
 
     useEffect(() => {
         const getMediumList = async () => {
@@ -25,19 +32,26 @@ function Medium() {
     }, [])
 
     return (
-        <div className="justify-center items-center bg-gradient-to-r from-black">
-        <div className='text-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4'>
+        <Fragment>
+        <div className="bg-gradient-to-r from-black">
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4'>
             {mediumList
-            .sort((a,b) => a.Type > b.Type ? 1 : -1)
             .map((medium) => (
-                <div key={medium} className="bg-neutral-800 text-white"> 
-                    <h1>{medium.Name}</h1>
-                    <p>Type - {medium.Type}</p>
-                    <video controls src={medium.Front}></video>
+                <div key={medium}> 
+                    {medium.Front?(
+                        <button className='w-full p-1' onClick={() => toggleVideo(medium.id)}>
+                            <div className="border p-4 bg-neutral-800 text-white">
+                            <h1 className="text-2xl">{medium.Name}</h1>
+                            <p>Type - {medium.Type}</p>
+                            </div>
+                        </button>
+                    ) : null}
+                    {videoShown[medium.id] ? <video className="border" loop autoPlay muted controls src={medium.Front}></video> : null}
                 </div>
-            ))}
+            ))} 
         </div>
         </div>
+        </Fragment>
     )
 }
 
