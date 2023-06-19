@@ -17,7 +17,8 @@ export default function Home() {
 
       <Hero 
       heading='About Us' 
-      message='Sports group based at the Event Center, Levin. We do a mixture of flips, kicks, and twists that create tricks! Classes run by Aaron Van Eijck.'
+      message='Sports group based at the Event Center, Levin.'
+      message1='We do a mixture of flips, kicks, and twists that create tricks! Classes run by Aaron Van Eijck.'
       frame='https://www.youtube.com/embed/GYfRuRT7fDY'
       />
       <Slider slides={SliderData} />
