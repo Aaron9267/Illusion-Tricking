@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import timetable from '../public/timetable.PNG'
+import timetable from '../public/timetable.jpg'
 
 const Class = () => {
     return(
