@@ -29,6 +29,7 @@ function Basic() {
 
         }
         getBasicList()
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (
