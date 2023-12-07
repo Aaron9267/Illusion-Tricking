@@ -17,8 +17,9 @@ export default function Home() {
 
       <Hero 
       heading='About Us' 
-      message='Sports group based at the Event Center, Levin. We do a mixture of tumbling, parkour, flips, kicks, and twists.'
-      message1='Classes run by Aaron Van Eijck.'
+      message='Sports group based in Levin. We do a mixture of tricking, tumbling, and parkour.'
+      message1='Check out our January holiday programme on the classes page'
+      message2='Classes run by Aaron Van Eijck and Allegra Hunt.'
       frame='https://www.youtube.com/embed/GYfRuRT7fDY'
       />
       <Slider slides={SliderData} />
