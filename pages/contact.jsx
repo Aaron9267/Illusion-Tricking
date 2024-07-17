@@ -8,7 +8,7 @@ const contact = () => {
         <div>
             <Hero 
             heading='Contact' 
-            message='Complete the form below to enrol in a class, purchase a T-shirt, or ask a question.'
+            message='Complete the form below to enrol in a class or ask a question.'
             hidden="hidden"
             />
             <Contact />
