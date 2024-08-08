@@ -26,9 +26,9 @@ if (!Array.isArray(slides) || slides.length <= 0) {
 }
 
     return (
-        <div id='t-shirt' className='max-w-[700px] mx-auto text-center'>
-            <h1 className='text-2xl p-4'>T-shirt</h1>
-            <p className={fira.className}>$35</p>
+        <div id='Clothing' className='max-w-[700px] mx-auto text-center'>
+            <h1 className='text-2xl p-4'>Clothing</h1>
+            <p className={fira.className}>Kids Tee - $30 | Kids Hoodie - $55</p>
             <div className='relative flex justify-center p-4'>
 
                 {SliderData.map((slide, index) => {
