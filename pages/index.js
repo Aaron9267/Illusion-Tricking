@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Hero from '../components/Hero'
 import { SliderData } from '../components/SliderData'
 import Slider from '../components/Slider'
@@ -17,10 +16,10 @@ export default function Home() {
 
       <Hero 
       heading='About Us' 
-      message='Sports group based in Levin. We do a mixture of tricking, tumbling, and parkour.'
-      message1='Check out our timetable and prices on the classes page'
-      message2='Classes run by Aaron Van Eijck and Allegra Hunt.'
-      frame='https://youtube.com/embed/6SEX_VyPWcA?si=6sqOIW-f8qMhISoW'
+      message='Sports group based in Levin. We do tricking which consists of a mixture of kicks, flips, and twists.'
+      message1='It takes inspiration from multiple disciplines such as martial arts, breaking, gymnastics, and so on.'
+      message2='This video is an example of the skills we teach. Classes run by Aaron Van Eijck and Allegra Hunt.'
+      frame='https://www.youtube.com/embed/noVDCCBdfJI?si=k-5OUu9N_gHOaH20'
       />
       <Slider slides={SliderData}/>
       <Instagram />
