@@ -43,6 +43,9 @@ const Navbar = () => {
                     <li className='p-4'>
                         <Link href='/tricktionary'>Tricktionary</Link>
                     </li>
+                    <li className='p-4'>
+                        <Link href='/clothing'>Clothing</Link>
+                    </li>
                 </ul>
 
                 {/*Mobile Button */}
@@ -73,6 +76,9 @@ const Navbar = () => {
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/tricktionary'>Tricktionary</Link>
+                    </li>
+                    <li className='p-4 text-4xl hover:text-gray-500'>
+                        <Link href='/clothing'>Clothing</Link>
                     </li>
                 </ul>
                 </div>
