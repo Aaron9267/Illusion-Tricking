@@ -21,7 +21,7 @@ const Instagram = () => {
         <div className='bg-black/80'>
         <div className='mx-auto text-center py-24 max-w-[1240px] text-white'>
             <p className='text-xl'>Follow us on Instagram and Facebook</p>
-            <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-4'>
+            <div className=' grid grid-cols-6 gap-2 p-4'>
                 <InstagramImg socialImg={IgImg1} />
                 <InstagramImg socialImg={IgImg2} />
                 <InstagramImg socialImg={IgImg3} />

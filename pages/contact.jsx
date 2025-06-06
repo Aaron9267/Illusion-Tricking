@@ -9,6 +9,7 @@ const contact = () => {
             heading='Contact' 
             message='Complete the form below to enrol in a class or ask a question.'
             hidden="hidden"
+            hidden1='hidden'
             />
             <Contact />
         </div>
