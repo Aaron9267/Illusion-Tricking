@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Instagram from '../components/Instagram'
-import sleepover from '../public/sleepover.jpg'
+import post from '../public/post.png'
 import Event from '../components/Event'
 
 const events = () => {
@@ -12,6 +12,7 @@ const events = () => {
             message='We have an important announcment to kick off Term 4.' 
             message1=''
             message2=''
+            image = {post}
             hidden='hidden'
             />
             <Event/>
