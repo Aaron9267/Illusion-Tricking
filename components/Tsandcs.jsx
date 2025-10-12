@@ -13,8 +13,8 @@ const Tsandcs = () => {
             <div className='p-20 text-white z-[2]' >
             <div className={fira.className}>
                 <h className='text-2xl'>1. Definitions</h>
-                <p>- "We", "us", "our" refers to Illusion Tricking, including its owners, staff, contractors, and agents. </p> 
-                <p>- "You" or "Participant" refers to any individual (or their parent/guardian if under 18) who enrols in or attends our classes, events, or uses our facilities. </p> 
+                <p>- &quot;We&quot;, &quot;us&quot;, &quot;our&quot; refers to Illusion Tricking, including its owners, staff, contractors, and agents. </p> 
+                <p>- &quot;You&quot; or &quot;Participant&quot; refers to any individual (or their parent/guardian if under 18) who enrols in or attends our classes, events, or uses our facilities. </p> 
                 <br></br>
                 <h className='text-2xl'>2. Assumption of Risk and Waiver of Liability</h>
                 <p>Tricking and related movement activities involve inherent physical risks, including risk of injury or death. By participating, you acknowledge and accept these risks.</p> 
