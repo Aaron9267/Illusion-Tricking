@@ -12,7 +12,8 @@ const events = () => {
             message='' 
             message1=''
             message2=''
-            hidden='hidden'
+            hidden
+            hidden1
             />
             <Event/>
             <Instagram />

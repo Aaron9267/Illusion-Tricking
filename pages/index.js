@@ -17,7 +17,7 @@ export default function Home() {
       message='Sports group based in Levin.'
       message1='This video is an example of the skills we teach. Classes run by Aaron Van Eijck and Allegra Hunt.'
       message2=''
-      hidden1='hidden'
+      hidden1
       frame='https://www.youtube.com/embed/noVDCCBdfJI?si=k-5OUu9N_gHOaH20'
       />  
       <Instagram />

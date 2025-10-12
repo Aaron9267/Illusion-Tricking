@@ -11,6 +11,7 @@ const tsandcs = () => {
             message1='Welcome to Illusion Tricking! These Terms and Conditions govern your participation in our classes, programs, events, and use of our facilities.'
             message2='By signing up for or attending any of our services, you agree to be bound by the terms below.'
             hidden
+            hiiden1
             />
             <Tsandcs />
         </div>

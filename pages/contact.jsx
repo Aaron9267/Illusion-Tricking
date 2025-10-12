@@ -8,8 +8,8 @@ const contact = () => {
             <Hero 
             heading='Contact' 
             message='Complete the form below to enrol in a class or ask a question.'
-            hidden="hidden"
-            hidden1='hidden'
+            hidden
+            hidden1
             />
             <Contact />
         </div>
