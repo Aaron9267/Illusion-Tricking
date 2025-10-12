@@ -10,7 +10,7 @@ const classes = () => {
             <Hero 
             heading='Classes' 
             message='2025 Term 4' 
-            message1=''
+            message1='Register below'
             message2=''
             image={timetable} w={1000}
             hidden
