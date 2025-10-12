@@ -14,9 +14,9 @@ export default function Home() {
 
       <Hero 
       heading='About Us' 
-      message='Sports group based in Levin. We do tricking which consists of a mixture of kicks, flips, and twists.'
-      message1='It takes inspiration from multiple disciplines such as martial arts, breaking, gymnastics, and so on.'
-      message2='This video is an example of the skills we teach. Classes run by Aaron Van Eijck and Allegra Hunt.'
+      message='Sports group based in Levin.'
+      message1='This video is an example of the skills we teach. Classes run by Aaron Van Eijck and Allegra Hunt.'
+      message2=''
       hidden1='hidden'
       frame='https://www.youtube.com/embed/noVDCCBdfJI?si=k-5OUu9N_gHOaH20'
       />  

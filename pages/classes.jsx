@@ -10,10 +10,10 @@ const classes = () => {
             <Hero 
             heading='Classes' 
             message='2025 Term 4' 
-            message1='Timetable coming soon.'
+            message1=''
             message2=''
-            hidden='hidden'
-               
+            image={timetable} w={1000}
+            hidden
             />
             <Class />
             <Instagram />

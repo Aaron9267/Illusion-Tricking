@@ -9,10 +9,9 @@ const events = () => {
         <div>
             <Hero 
             heading='Coming Soon' 
-            message='We have an important announcment to kick off Term 4.' 
+            message='' 
             message1=''
             message2=''
-            image = {post}
             hidden='hidden'
             />
             <Event/>

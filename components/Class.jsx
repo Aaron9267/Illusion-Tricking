@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Class = () => {
     return(
         <div className='mx-auto bg-fixed bg-center bg-cover custom-img'>
