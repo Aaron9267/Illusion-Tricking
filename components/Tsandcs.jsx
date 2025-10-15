@@ -80,6 +80,47 @@ const Tsandcs = () => {
                 <br></br>
                 <h className='text-2xl'>Parent/Guardian Agreement (for participants under 18)</h>
                 <p>I am the parent/legal guardian of the participant. I have read and understood the above terms and conditions and give permission for my child to participate in classes at Illusion Tricking. I accept the risks and agree to the waiver of liability on their behalf.</p>
+                <br></br>
+                <h className='text-2xl'>Birthday Party Terms and Conditions</h>
+                <p>Effective Date: 14/10/2025</p>
+                <p>By booking a birthday party at Illusion Tricking, you (“the Client”, "you", or “the Hirer”) agree to the following Terms and Conditions. These Terms form a legally binding agreement between you and Illusion Tricking Limited (“Illusion Tricking”, “we”, “our”, or “us”).</p>
+                <br></br>
+                <h className='text-2xl'>1. Booking & Arrival</h>
+                <p>- Bookings must be confirmed in writing and accompanied by a $50 non-refundable deposit.</p>
+                <p>- Party organisers may arrive no earlier than 15 minutes prior to the scheduled party start time to allow for setup.</p>
+                <p>- All attendees must vacate the premises within 15 minutes after the scheduled end time. Additional charges may apply for late departure.</p>
+                <br></br>
+                <h className='text-2xl'>2. Rubbish and Cleaning</h>
+                <p>- You are responsible for removing all rubbish and decorations at the conclusion of your party. This includes food waste, packaging, balloons, streamers, and any other materials brought onto the premises.</p>
+                <p>- A cleaning fee may be charged if excessive rubbish or mess is left behind.</p>
+                <br></br>
+                <h className='text-2xl'>3. Food and Equipment Use</h>
+                <p>- No food or drink is permitted on or near any training equipment at any time.</p>
+                <p>- All food and drink must be consumed in designated areas only.</p>
+                <p>- Any breach of this condition may result in immediate termination of the event without refund.</p>
+                <br></br>
+                <h className='text-2xl'>4. Health and Safety</h>
+                <p>- All guests must follow the instructions of Illusion Tricking staff at all times.</p>
+                <p>- Children must be supervised by an adult at all times.</p>
+                <p>- Participation in activities is at your own risk. Trampolines, parkour equipment, or tricking elements involve physical activity and carry inherent risks of injury.</p>
+                <br></br>
+                <h className='text-2xl'>5. Liability and Indemnity</h>
+                <p>- Illusion Tricking accepts no responsibility or liability for any loss, damage, or injury (including personal injury or property damage) arising from the use of our facilities, except where required by law.</p>
+                <p>- You agree to indemnify and hold harmless Illusion Tricking and its employees from and against any and all claims, liabilities, damages, or costs (including legal fees) arising from your use of the premises and/or breach of these Terms.</p>
+                <br></br>
+                <h className='text-2xl'>6. Conduct</h>
+                <p>- Illusion Tricking reserves the right to refuse entry to, or remove, any person whose behaviour is deemed unsafe, disruptive, or inappropriate.</p>
+                <p>- No alcohol, illegal substances, or smoking is permitted on the premises.</p>
+                <br></br>
+                <h className='text-2xl'>7. Cancellations</h>
+                <p>- Illusion Tricking reserves the right to cancel or reschedule bookings due to unforeseen circumstances (e.g. maintenance, weather, emergencies). In such cases, a reschedule will be offered.</p>
+                <br></br>
+                <h className='text-2xl'>8. Acceptance</h>
+                <p>By proceeding with a booking, you confirm that you have read, understood, and agree to be bound by these Terms and Conditions.</p>
+                <br></br>
+                <p>Illusion Tricking</p>
+                <p>19 Hamaria Road Levin</p>
+                <p>illusion.tricking@gmail.com</p>
                 </div>
             </div>
             </div>
