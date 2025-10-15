@@ -83,7 +83,7 @@ const Tsandcs = () => {
                 <br></br>
                 <h className='text-2xl'>Birthday Party Terms and Conditions</h>
                 <p>Effective Date: 14/10/2025</p>
-                <p>By booking a birthday party at Illusion Tricking, you (“the Client”, "you", or “the Hirer”) agree to the following Terms and Conditions. These Terms form a legally binding agreement between you and Illusion Tricking Limited (“Illusion Tricking”, “we”, “our”, or “us”).</p>
+                <p>By booking a birthday party at Illusion Tricking, you (&quot;the Client&quot;, &quot;you&quot;, or &quot;the Hirer&quot;) agree to the following Terms and Conditions. These Terms form a legally binding agreement between you and Illusion Tricking Limited (“Illusion Tricking”, “we”, “our”, or “us”).</p>
                 <br></br>
                 <h className='text-2xl'>1. Booking & Arrival</h>
                 <p>- Bookings must be confirmed in writing and accompanied by a $50 non-refundable deposit.</p>
