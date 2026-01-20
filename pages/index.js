@@ -14,11 +14,11 @@ export default function Home() {
 
       <Hero 
       heading='About Us' 
-      message='Sports group based in Levin.'
-      message1='This video is an example of the skills we teach. Classes run by Aaron Van Eijck and Allegra Hunt.'
+      message='Tricking is a movement discipline that blends martial arts kicks, gymnastics flips, and dance-style flow into dynamic, acrobatic combinations.'
+      message1='Classes run by Aaron Van Eijck and Allegra Hunt.'
       message2=''
       hidden1
-      frame='https://www.youtube.com/embed/noVDCCBdfJI?si=k-5OUu9N_gHOaH20'
+      frame='https://www.youtube.com/embed/MWiv8QIgVtc?si=mo2CwY_PdQW7JB2N'
       />  
       <Instagram />
     </>
