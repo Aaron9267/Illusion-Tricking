@@ -10,6 +10,7 @@ const contact = () => {
             message='Complete the form below to enrol in a class or ask a question.'
             hidden
             hidden1
+            hidden2
             />
             <Contact />
         </div>

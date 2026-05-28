@@ -26,7 +26,7 @@ if (!Array.isArray(slides) || slides.length <= 0) {
 }
 
     return (
-        <div id='Clothing' className='max-w-[700px] mx-auto text-center bg-white'>
+        <div id='Clothing' className='m-auto mt-10 rounded-lg'>
             <div className='relative flex justify-center p-4'>
 
                 {SliderData.map((slide, index) => {

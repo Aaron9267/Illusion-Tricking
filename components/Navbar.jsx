@@ -35,22 +35,22 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/events'>Events</Link>
+                        <Link href='/classes'>Classes</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/classes'>Classes</Link>
+                        <Link href='/events'>Events</Link>
                     </li>
                     <li className='p-4'>
                         <Link href='/contact'>Contact</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/tsandcs'>Terms & Conditions</Link>
+                        <Link href='/clothing'>Clothing</Link>
                     </li>
                     <li className='p-4'>
                         <Link href='/tricktionary'>Tricktionary</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/clothing'>Clothing</Link>
+                        <Link href='/tsandcs'>Terms & Conditions</Link>
                     </li>
                 </ul>
 
@@ -75,22 +75,22 @@ const Navbar = () => {
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/events'>Events</Link>
+                        <Link href='/classes'>Classes</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/classes'>Classes</Link>
+                        <Link href='/events'>Events</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/contact'>Contact</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/tsandcs'>Terms & Conditions</Link>
+                        <Link href='/clothing'>Clothing</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
                         <Link href='/tricktionary'>Tricktionary</Link>
                     </li>
                     <li className='p-4 text-4xl hover:text-gray-500'>
-                        <Link href='/clothing'>Clothing</Link>
+                        <Link href='/tsandcs'>Terms & Conditions</Link>
                     </li>
                 </ul>
                 </div>

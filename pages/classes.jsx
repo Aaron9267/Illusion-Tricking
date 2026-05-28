@@ -8,11 +8,12 @@ const classes = () => {
     return (
         <div>
             <Hero 
-            heading='Classes' 
-            message='2026 Term 1' 
-            message1='Register below'
-            message2=''
-            image={timetable} w={1000}
+            heading='Classes 2026 Term 2' 
+            message='Term Price - $100' 
+            message1='Casual Price - $15 | Seekers - $7'
+            message2='Register below'
+            image={timetable} 
+            hidden2
             hidden
             />
             <Class />

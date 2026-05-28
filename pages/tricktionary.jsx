@@ -12,6 +12,7 @@ const tricktionary = () => {
             message='Below is a list of tricks. Click on one to see what it looks like. See if you can master them all!'
             hidden
             hidden1
+            hidden2
             />
             <h1 className="flex justify-center text-2xl p-4">Basic</h1>
             <Basic />

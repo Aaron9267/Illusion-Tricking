@@ -18,6 +18,7 @@ export default function Home() {
       message1='Classes run by Aaron Van Eijck and Allegra Hunt.'
       message2=''
       hidden1
+      hidden2
       frame='https://www.youtube.com/embed/MWiv8QIgVtc?si=mo2CwY_PdQW7JB2N'
       />  
       <Instagram />

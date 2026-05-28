@@ -6,7 +6,9 @@ import Instagram from '../components/Instagram'
 const clothing = () => {
     return (
         <div>
+            
             <Clothing />
+            
             <Instagram />
         </div>
         
